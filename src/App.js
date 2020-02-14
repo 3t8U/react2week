@@ -10,7 +10,7 @@ import { Switch, Route } from 'react-router-dom';
 import About from './components/About.jsx';
 import PortalSmashers from './components/PortalSmashers.jsx';
 import Video from './components/Video.jsx'
-
+import Menu from './components/Menu.jsx'
 
 
 
@@ -26,6 +26,7 @@ function App() {
       <Route exact path='/About' component={About} />
       <Route path='/PortalSmashers' component={PortalSmashers} />
       <Route path='/video' component={Video} />
+      <Route path='/menu' component={Menu} />
       </Switch>
     </div>
   );

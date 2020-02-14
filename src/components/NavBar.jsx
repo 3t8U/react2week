@@ -19,8 +19,15 @@ function NavBar(props) {
     <Navbar.Brand href="#home"> Fluoro Water</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
+
+    <Nav className="mr-auto">
+      <NavDropdown title="MENU" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1"><Link to="/Menu">MENU</Link></NavDropdown.Item>
+      </NavDropdown>
+    </Nav>
+
       <Nav className="mr-auto">
-        <NavDropdown title="MENU" id="collasible-nav-dropdown">
+        <NavDropdown title="FLAVORS" id="collasible-nav-dropdown">
           <NavDropdown.Item href="#action/3.1">Green</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.2">Pink</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Red</NavDropdown.Item>

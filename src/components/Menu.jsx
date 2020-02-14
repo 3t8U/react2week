@@ -10,37 +10,67 @@ const menuList = [
     price: "€6.66",
     pairing: "HiTech or uplifting PsyCore"
 
+  },
+
+  {
+    name: "Pink",
+    flavor: "Grapfruit X Bubblegum",
+    price: "€7.77",
+    pairing: "Soumosaundi"
+
+  },
+
+  {
+    name: "Red",
+    flavor: "Toxic Toad Sweat",
+    price: "€6.66",
+    pairing: "Full-On"
+
+  },
+
+  {
+    name: "Yellow",
+    flavor: "Toxic Toad Sweat",
+    price: "€3.33",
+    pairing: "Goa"
+
+  },
+
+  {
+    name: "Blue",
+    flavor: "Toxic Toad Sweat",
+    price: "€6.66",
+    pairing: "Darpsy"
+
+  },
+
+  {
+    name: "Purple",
+    flavor: "Toxic Toad Sweat",
+    price: "€5.55",
+    pairing: "Scando-Clown Freak Beat or OG Forest"
+
   }
-
- pink
- red
- yellow
- blue
- purple
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ]
 
 function Menu(){
+  const menuStyles = {
+    fontFamily: 'Ultra',
+    fontSize: "20px",
+    padding: "10%",
+    color: "#663300",
+    fontWeight: "boldest",
+    zIndex: "+1",
+    color: 'White',
+    textShadow: "2px 2px 5px brown"
+
+  }
   return (
-    <div style={headerStyles}>
+    <div style ={menuStyles}>
     <hr/>
     {menuList.map((flavor,index) =>
-      <Market
+      <Flavor
       name={flavor.name}
       flavor={flavor.flavor}
       price={flavor.price}
@@ -49,22 +79,5 @@ function Menu(){
     )}
     </div>
   )};
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   export default Menu;
