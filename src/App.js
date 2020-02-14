@@ -11,13 +11,13 @@ import About from './components/About.jsx';
 import PortalSmashers from './components/PortalSmashers.jsx';
 import Video from './components/Video.jsx'
 import Menu from './components/Menu.jsx'
-import logo from './components/logo.png'
+import logo2 from './components/logo2.png'
 
 
 
 function App() {
   const logoStyle ={
-  width: '50vh',
+  width: '75vh',
   height: '25vh',
 
   }
@@ -27,9 +27,9 @@ function App() {
       <TrancersAdd/>
       <NavBar/>
       <div className="logo">
-      <img style={logoStyle} src={logo} alt="banner"></img>
+      <img style={logoStyle} src={logo2} alt="banner"></img>
       </div>
-    
+
 
       </header>
       <Switch>
