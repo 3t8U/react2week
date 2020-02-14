@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import GoogleFontLoader from 'react-google-font-loader';
-
+import { Link } from 'react-router-dom';
 
 function NavBar(props) {
   var navBarAddStyles = {
@@ -32,7 +32,7 @@ function NavBar(props) {
 
       <Nav className="mr-auto">
         <NavDropdown title="ABOUT" id="collasible-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">What is Fluoro Water</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1"><Link to="/About">What is Fluoro Water</Link></NavDropdown.Item>
         </NavDropdown>
       </Nav>
 
@@ -40,15 +40,15 @@ function NavBar(props) {
 
       <Nav className="mr-auto">
         <NavDropdown title="EVENTS" id="collasible-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Portal Smashers</NavDropdown.Item>
+          <NavDropdown.Item href="https://www.facebook.com/events/somewhere-in-the-forest-of-the-cascadia-wilderness/portal-smashers-2020-the-re-smashing/413441849352546/">Portal Smashers</NavDropdown.Item>
         </NavDropdown>
       </Nav>
 
       <Nav className="mr-auto">
         <NavDropdown title="PARTNERS" id="collasible-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Cascadia Psy Scouts</NavDropdown.Item>
+          <NavDropdown.Item href="https://www.facebook.com/cascadiapsyscouts/">Cascadia Psy Scouts</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.1">U.T.T.A. Chaos</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">pantiestheclown</NavDropdown.Item>
+          <NavDropdown.Item href="https://www.mixcloud.com/Space_Toilet_Radio/pantiestheclown-live-hindsight-2020/">pantiestheclown</NavDropdown.Item>
         </NavDropdown>
       </Nav>
 
