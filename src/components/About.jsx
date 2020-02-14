@@ -1,10 +1,25 @@
 import React from 'react';
 
+var aboutStyle ={
+fontFamily: 'Fira Sans',
+fontSize: "20px",
+padding: "10%",
+color: "#663300",
+fontWeight: "boldest",
+zIndex: "+1",
+color: 'White',
+textShadow: "2px 2px 5px brown"
+
+};
 
 
 function About() {
   return (
-    <div className="App">
+    <div style={aboutStyle} className="AboutUs">
+    <h2> FLUORO WATER </h2>
+    <h3> "Don't get caught with basic ass water on the trancefloor"</h3>
+
+    <p> </p>
 
     </div>
   );

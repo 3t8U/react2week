@@ -9,7 +9,7 @@ import NavBar from './components/NavBar.jsx'
 import { Switch, Route } from 'react-router-dom';
 import About from './components/About.jsx';
 import PortalSmashers from './components/PortalSmashers.jsx';
-
+import Video from './components/Video.jsx'
 
 
 
@@ -25,6 +25,7 @@ function App() {
       <Switch>
       <Route exact path='/About' component={About} />
       <Route path='/PortalSmashers' component={PortalSmashers} />
+      <Route path='/video' component={Video} />
       </Switch>
     </div>
   );

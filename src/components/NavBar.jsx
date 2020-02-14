@@ -47,7 +47,7 @@ function NavBar(props) {
       <Nav className="mr-auto">
         <NavDropdown title="PARTNERS" id="collasible-nav-dropdown">
           <NavDropdown.Item href="https://www.facebook.com/cascadiapsyscouts/">Cascadia Psy Scouts</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">U.T.T.A. Chaos</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1"><Link to="/Video">U.T.T.A. Chaos</Link></NavDropdown.Item>
           <NavDropdown.Item href="https://www.mixcloud.com/Space_Toilet_Radio/pantiestheclown-live-hindsight-2020/">pantiestheclown</NavDropdown.Item>
         </NavDropdown>
       </Nav>
