@@ -1,7 +1,7 @@
 import React from 'react';
 
 var aboutStyle ={
-fontFamily: 'Fira Sans',
+fontFamily: 'Ultra',
 fontSize: "20px",
 padding: "10%",
 color: "#663300",

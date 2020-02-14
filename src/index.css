@@ -21,3 +21,13 @@ code {
     font-family: 'Ultra';
     src: local('Ultra'), url(./fonts/Ultra-Regular.ttf) format('ttf');
 }
+
+@font-face {
+    font-family: 'Audiowide', cursive;
+    src: local('Audiowide'), url(./fonts/Audiowide-Regular.ttf) format('ttf');
+}
+
+.banner {
+  font-family: 'Audiowide';
+  
+}
