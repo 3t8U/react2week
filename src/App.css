@@ -35,3 +35,10 @@
   font-family: 'Audiowide';
 
 }
+
+.logo {
+  margin-top: 4.25%;
+    position: relative;
+    opacity: .75;
+    -webkit-box-reflect: below -200px;
+}

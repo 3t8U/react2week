@@ -26,12 +26,10 @@ function App() {
       <header className="App-header">
       <TrancersAdd/>
       <NavBar/>
-      <div className="banner">
+      <div className="logo">
       <img style={logoStyle} src={logo} alt="banner"></img>
       </div>
-        <div className="banner">
-        <img style={logoStyle} src={logo} alt="banner"></img>
-        </div>
+    
 
       </header>
       <Switch>
