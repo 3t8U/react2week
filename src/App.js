@@ -11,16 +11,28 @@ import About from './components/About.jsx';
 import PortalSmashers from './components/PortalSmashers.jsx';
 import Video from './components/Video.jsx'
 import Menu from './components/Menu.jsx'
-
+import logo from './components/logo.png'
 
 
 
 function App() {
+  const logoStyle ={
+  width: '50vh',
+  height: '25vh',
+
+  }
   return (
     <div className="App">
       <header className="App-header">
       <TrancersAdd/>
       <NavBar/>
+      <div className="banner">
+      <img style={logoStyle} src={logo} alt="banner"></img>
+      </div>
+        <div className="banner">
+        <img style={logoStyle} src={logo} alt="banner"></img>
+        </div>
+
       </header>
       <Switch>
       <Route exact path='/About' component={About} />
