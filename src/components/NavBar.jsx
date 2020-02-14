@@ -7,7 +7,7 @@ function NavBar(props) {
   var navBarAddStyles = {
     backgroundColor: 'black',
     fontWeight: 'bold',
-    fontFamily: 'BowlbyOneSC',
+    fontFamily: 'Ultra',
     width: '80%',
     margin: '0 auto'
 
@@ -19,7 +19,6 @@ function NavBar(props) {
     <Navbar.Brand href="#home"> Fluoro Water</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
-
       <Nav className="mr-auto">
         <NavDropdown title="MENU" id="collasible-nav-dropdown">
           <NavDropdown.Item href="#action/3.1">Green</NavDropdown.Item>
@@ -28,23 +27,21 @@ function NavBar(props) {
           <NavDropdown.Item href="#action/3.2">Yellow</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Blue</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.3">Purple</NavDropdown.Item>
-
         </NavDropdown>
       </Nav>
 
       <Nav className="mr-auto">
         <NavDropdown title="ABOUT" id="collasible-nav-dropdown">
           <NavDropdown.Item href="#action/3.1">What is Fluoro Water</NavDropdown.Item>
-
         </NavDropdown>
       </Nav>
 
-      
+
 
       <Nav className="mr-auto">
         <NavDropdown title="EVENTS" id="collasible-nav-dropdown">
           <NavDropdown.Item href="#action/3.1">Portal Smashers</NavDropdown.Item>
-
+        </NavDropdown>
       </Nav>
 
       <Nav className="mr-auto">

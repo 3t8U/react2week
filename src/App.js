@@ -1,11 +1,11 @@
 import React from 'react';
-import TrancersAdd from './components/trancersAdd.jsx';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import { Navbar } from 'react-bootstrap';
 import GoogleFontLoader from 'react-google-font-loader';
 import YouTube from 'react-youtube';
+import TrancersAdd from './components/trancersAdd.jsx';
 import NavBar from './components/NavBar.jsx'
-import { Navbar } from 'react-bootstrap';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <header className="App-header">
       <TrancersAdd/>
       </header>
+      <NavBar/>
     </div>
   );
 }
