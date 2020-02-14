@@ -24,7 +24,7 @@ function App() {
       </header>
       <Switch>
       <Route exact path='/About' component={About} />
-      <Route exact path='/PortalSmashers' component={PortalSmashers} />
+      <Route path='/PortalSmashers' component={PortalSmashers} />
       </Switch>
     </div>
   );

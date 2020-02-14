@@ -40,7 +40,7 @@ function NavBar(props) {
 
       <Nav className="mr-auto">
         <NavDropdown title="EVENTS" id="collasible-nav-dropdown">
-          <NavDropdown.Item href="https://www.facebook.com/events/somewhere-in-the-forest-of-the-cascadia-wilderness/portal-smashers-2020-the-re-smashing/413441849352546/">Portal Smashers</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1"><Link to="/PortalSmashers">Portal Smashers</Link></NavDropdown.Item>
         </NavDropdown>
       </Nav>
 
