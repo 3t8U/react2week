@@ -14,7 +14,7 @@ const menuList = [
 
   {
     name: "Pink",
-    flavor: "Grapfruit X Bubblegum",
+    flavor: "Grapefruit X Bubblegum",
     price: "€7.77",
     pairing: "Soumosaundi"
 
@@ -22,7 +22,7 @@ const menuList = [
 
   {
     name: "Red",
-    flavor: "Toxic Toad Sweat",
+    flavor: "Crimson Psynnamon",
     price: "€6.66",
     pairing: "Full-On"
 
@@ -30,7 +30,7 @@ const menuList = [
 
   {
     name: "Yellow",
-    flavor: "Toxic Toad Sweat",
+    flavor: "Lemon Yellow Sunshine",
     price: "€3.33",
     pairing: "Goa"
 
@@ -38,15 +38,15 @@ const menuList = [
 
   {
     name: "Blue",
-    flavor: "Toxic Toad Sweat",
+    flavor: "Byron Bay Berry",
     price: "€6.66",
-    pairing: "Darpsy"
+    pairing: "Darkpsy"
 
   },
 
   {
     name: "Purple",
-    flavor: "Toxic Toad Sweat",
+    flavor: "Codeine Psyzzurp",
     price: "€5.55",
     pairing: "Scando-Clown Freak Beat or OG Forest"
 

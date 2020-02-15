@@ -12,6 +12,7 @@ import PortalSmashers from './components/PortalSmashers.jsx';
 import Video from './components/Video.jsx'
 import Menu from './components/Menu.jsx'
 import logo2 from './components/logo2.png'
+import keg from './components/keg.png'
 
 
 
@@ -21,6 +22,10 @@ function App() {
   height: '25vh',
 
   }
+  const kegStyle ={
+    width: '25vh',
+    height: '25vh',
+  }
   return (
     <div className="App">
       <header className="App-header">
@@ -29,6 +34,7 @@ function App() {
       <div className="logo">
       <img style={logoStyle} src={logo2} alt="banner"></img>
       </div>
+      
 
 
       </header>
