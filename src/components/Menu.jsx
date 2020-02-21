@@ -71,11 +71,7 @@ function Menu(){
     <hr/>
     {menuList.map((flavor,index) =>
       <Flavor
-      name={flavor.name}
-      flavor={flavor.flavor}
-      price={flavor.price}
-      pairing={flavor.pairing}
-      key={index}/>
+
     )}
     </div>
   )};
