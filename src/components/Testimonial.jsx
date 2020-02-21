@@ -9,11 +9,7 @@ function Testimonial(props){
    textAlign: 'center',
    border: '5px solid #ADD2CC',
    margin: '10px 100px',
-   backgroundColor: 'lightgrey',
-   borderRadius: '70px',
-   boxShadow:'5px 5px 10px black',
-   marginTop: '50px',
-   padding:"30px"
+  
   }
   let hrStyle = {
   padding:"10px",

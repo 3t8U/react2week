@@ -43,8 +43,13 @@ function NavBar(props) {
         </NavDropdown>
       </Nav>
 
+      <Nav className="mr-auto">
+        <NavDropdown title="TESTIMONIALS" id="collasible-nav-dropdown">
+          <NavDropdown.Item href="#action/3.1"><Link to="/NewTestimonial" style={{position:'relative', zIndex:'500'}}>Share Your Story..</Link></NavDropdown.Item>
+        </NavDropdown>
+      </Nav>
 
-    
+
 
 
       <Nav className="mr-auto">
