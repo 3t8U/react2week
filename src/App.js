@@ -77,6 +77,7 @@ render(){
       <header className="App-header">
       <TrancersAdd/>
       <NavBar/>
+      <TestimonialList/>
       <div className="logo">
       <img style={logoStyle} src={logo2} alt="banner"></img>
       </div>
@@ -89,7 +90,7 @@ render(){
       <Route path='/PortalSmashers' component={PortalSmashers} />
       <Route path='/video' component={Video} />
       <Route path='/menu' component={Menu} />
-      <Route exact path='/' render={()=><TestimonialList ticketList={this.state.TestimonialList} />} />
+
       <Route path='/NewTestimonial' render={()=><NewTestimonialForm onNewTestimonialCreation={this.handleAddingNewTestimonialToList} />} />
       </Switch>
     </div>

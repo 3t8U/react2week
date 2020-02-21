@@ -7,10 +7,10 @@ function TestimonialList(props){
   let bg={
 
   }
-  console.log(props.testimonialList);
+
   return (
     <div style={bg}>
-    <hr/>
+
     {props.testimonialList.map((testimonial) =>
       <Testimonial name={testimonial.name}
         testimonial={testimonial.testimonial}
