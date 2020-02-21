@@ -8,10 +8,10 @@ import TrancersAdd from './components/trancersAdd.jsx';
 import NavBar from './components/NavBar.jsx'
 import { Switch, Route } from 'react-router-dom';
 import About from './components/About.jsx';
-import PortalSmashers from './components/PortalSmashers.jsx';
+import PortalSmashers from './components/Images/PortalSmashers.jsx';
 import Video from './components/Video.jsx'
 import Menu from './components/Menu.jsx'
-import logo2 from './components/logo2.png'
+import logo2 from './components/Images/logo2.png'
 import keg from './components/keg.png'
 
 
@@ -34,7 +34,7 @@ function App() {
       <div className="logo">
       <img style={logoStyle} src={logo2} alt="banner"></img>
       </div>
-      
+
 
 
       </header>
