@@ -26,8 +26,7 @@ function NewTestimonialForm(props){
         <textarea
         id='testimonial'
         placeholder='Share your experience'
-        ref={(textarea) => {_testimonial = input;}}/>
-        <textarea
+        ref={(textarea) => {_testimonial = textarea;}}/>
       <button type='submit'>Submit my Testimonial!</button>
 
       </form>
