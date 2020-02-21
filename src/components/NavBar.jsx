@@ -44,6 +44,8 @@ function NavBar(props) {
       </Nav>
 
 
+        form addd sdfdvbvd
+
 
       <Nav className="mr-auto">
         <NavDropdown title="EVENTS" id="collasible-nav-dropdown">
