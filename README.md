@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
- ![Route Diagram](./Diagram.jpg)
+ ![Route Diagram](./React2WeekDiagram.png)
 
 
 ## Available Scripts
