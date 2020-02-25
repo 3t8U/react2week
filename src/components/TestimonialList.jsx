@@ -7,7 +7,7 @@ function TestimonialList(props){
   let bg={
 
   }
-
+console.log(props.testimonialList);
   return (
     <div style={bg}>
 

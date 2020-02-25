@@ -30,21 +30,15 @@ class App extends React.Component {
   constructor(props) {
   super(props);
   this.state = {
-
     TestimonialList: []
   };
-
     this.handleAddingNewTestimonialToList = this.handleAddingNewTestimonialToList.bind(this);
 }
 handleAddingNewTestimonialToList(newTestimonial){
   console.log('newTestimonial: ', newTestimonial);
-  // const position = this.indexOf()
   const newMasterTestimonialList = this.state.TestimonialList.slice();
-  // console.log('TestimonialList: ', this.state.TestimonialList);
-  // console.log('newMasterTestimonialList: ', newMasterTestimonialList);
   newTestimonial.formattedWaitTime = (newTestimonial.timeOpen).fromNow(true)
   newMasterTestimonialList.push(newTestimonial);
-  // console.log('newMasterTestimonialList: ', newMasterTestimonialList);
   this.setState({
     TestimonialList: newMasterTestimonialList
   });
