@@ -9,7 +9,7 @@ function Testimonial(props){
    textAlign: 'center',
    border: '5px solid #ADD2CC',
    margin: '10px 100px',
-  
+
   }
   let hrStyle = {
   padding:"10px",
@@ -27,11 +27,11 @@ function Testimonial(props){
     <div>
     <div style={content}>
     {console.log(props)}
+    <h2><p><em>{props.testimonial}</em></p></h2>
     <h3>{props.name}</h3>
     <hr style={hrStyle}/>
       <h4>{props.formattedWaitTime}</h4>
-    <p><em>{props.testimonial}</em></p>
-    <Link to="/EditTestimonial">Update Testimonial</Link>
+    
 
     </div>
     </div>

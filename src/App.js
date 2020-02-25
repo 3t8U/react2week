@@ -25,6 +25,12 @@ const kegStyle ={
   height: '25vh',
 }
 
+const test ={
+  color: 'yellow',
+  fontWeight: 'bold',
+  fontFamily: 'Ultra',
+}
+
 class App extends React.Component {
 
   constructor(props) {
@@ -71,10 +77,16 @@ render(){
       <header className="App-header">
       <TrancersAdd/>
       <NavBar/>
-      <TestimonialList/>
+
       <div className="logo">
       <img style={logoStyle} src={logo2} alt="banner"></img>
       </div>
+      <div className="testies">
+        <h1 style={test}> Testimonials </h1>
+        <TestimonialList testimonialList={this.state.TestimonialList} />
+      </div>
+
+
 
 
 

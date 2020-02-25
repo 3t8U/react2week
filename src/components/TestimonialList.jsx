@@ -5,9 +5,12 @@ import PropTypes from 'prop-types';
 
 function TestimonialList(props){
   let bg={
+    color: 'white',
+    border: '5px',
+    borderRadius: '50%',
+    margin: '100px'
 
   }
-console.log(props.testimonialList);
   return (
     <div style={bg}>
 

@@ -7,6 +7,15 @@ function NewTestimonialForm(props){
   let _name = null;
   let _testimonial = null;
 
+const formStyle={
+  backgroundColor: 'yellow',
+  textColor: 'neongreen',
+  borderRadius:'5%',
+  textAlign: 'center',
+  fontWeight: 'bold',
+  fontFamily: 'Ultra',
+
+}
 
   function handleNewTestimonialFormSubmission(event) {
     event.preventDefault();
@@ -17,17 +26,17 @@ function NewTestimonialForm(props){
 
   return (
     <div>
-      <form style={{margin: "10px", position: "relative", zIndex: "550"}}onSubmit={handleNewTestimonialFormSubmission}>
-        <input
+      <form style={{margin: "10px", position: "relative", zIndex: "550", color: 'yellow'}}onSubmit={handleNewTestimonialFormSubmission}>
+        <input style={formStyle}
         type='text'
         id='name'
         placeholder='Name'
         ref={(input) => {_name = input;}}/>
-        <textarea
+        <textarea style={formStyle}
         id='testimonial'
         placeholder='Share your experience'
         ref={(textarea) => {_testimonial = textarea;}}/>
-      <button type='submit'>Submit my Testimonial!</button>
+        <button style={formStyle} type='submit'>Share My Story!</button>
 
       </form>
     </div>
